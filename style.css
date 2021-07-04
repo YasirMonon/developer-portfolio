@@ -8,9 +8,14 @@ h1{
 .Special-Color{
     color: rgb(9, 160, 84);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
+    margin-top: 100;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
@@ -36,10 +41,11 @@ width: 70%;
     background-repeat: no-repeat;
     background-position: right;
 }
-.sixty-forty{
-    width: 60,40;
+.shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-right: 5%;
-}
-.sixty-forty img{
-width: 70%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 50px rgb(128, 126, 126);
 }
